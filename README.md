@@ -29,12 +29,12 @@ Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&ut
 
 ## Technology used to make this ChatGPT CLone:
 
-TypeScript
-Next.js13
-ReactJs
-Tailwind CSS
-ChatGPT API
-NextAuth - Firebase NextAuth
-useSWR (for data fatching)
-Server component
-Firebase Admin
+TypeScript.
+Next.js13.
+ReactJs.
+Tailwind CSS.
+ChatGPT API.
+NextAuth - Firebase NextAuth.
+useSWR (for data fatching).
+Server component.
+Firebase Admin.
