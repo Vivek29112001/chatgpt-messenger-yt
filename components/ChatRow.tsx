@@ -41,7 +41,8 @@ function ChatRow({ id }: Props) {
                  {messages?.docs[messages?.docs.length-1]?.data().text || "New Chat"}
                  </p>
             <TrashIcon
-                onClick={removeChat} className="h-5 w-5 text-gray-700 hover:text-red-700"
+                onClick={removeChat} 
+                className="h-5 w-5 text-gray-700 hover:text-red-700"
             />
         </Link>
     );
