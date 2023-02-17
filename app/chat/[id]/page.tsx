@@ -3,11 +3,11 @@ import ChatInput from "../../../components/ChatInput";
 
 type Props ={
   params:{
-    id: string
-  }
-}
+    id: string;
+  };
+};
 
-function ChatPage({params: { id }}: Props) {
+function ChatPage({ params: { id }}: Props) {
 
   return (
     <div className="flex flex-col h-screen overflow-hidden ">
@@ -16,7 +16,7 @@ function ChatPage({params: { id }}: Props) {
         {/* chatInput */}
         <ChatInput chatId={id}/>
     </div>
-  )
+  );
 }
 
 export default ChatPage;
